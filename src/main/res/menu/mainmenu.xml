@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <group
+
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/art"
+            android:title="ART" />
+
+        <item
+            android:id="@+id/artexecução"
+            android:title="ART(execução)" />
+
+        <item android:id="@+id/contrato"
+            android:title="Contrato"
+            />
+        <item
+            android:id="@+id/cronogram"
+            android:title="Cronograma" />
+        <item
+            android:id="@+id/serviceoder"
+            android:title="Ordem de serviço" />
+
+
+
+    </group>
+    <item android:id="@+id/progress"
+        android:icon="@drawable/ic_communication_4"
+        android:title="Contato"
+        />
+    <item
+        android:icon="@drawable/ic_logout"
+        android:title="Sair" />
+</menu>

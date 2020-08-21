@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/view"
+    android:background="@color/colorPrimaryDark"
+     tools:context=".Splash">
+    <LinearLayout
+         android:layout_centerInParent="true"
+        android:id="@+id/loading"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+             android:textSize="40sp"
+            android:fontFamily="@font/cinzel"
+            android:textAlignment="center"
+            android:text="IC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:animateLayoutChanges="true"
+        android:background="@color/white"
+        android:id="@+id/loginlayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorPrimary"
+                 android:fontFamily="serif"
+                android:textSize="30sp"
+                android:text="@string/app_name"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/message"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Faça login na Intacta Engenharia para ver o andamento de sua obra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+                <com.santalu.maskedittext.MaskEditText
+                    android:textStyle="bold"
+                    android:textColor="@color/grey_800"
+                    android:background="@drawable/field"
+                    android:hint="0000000"
+                    android:inputType="number|phone"
+                     android:padding="10dp"
+                    android:id="@+id/usertxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:visibility="gone"
+                android:id="@+id/password"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                app:passwordToggleEnabled="true"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:textColor="@color/grey_800"
+                    android:background="@drawable/field"
+                    android:hint="Senha"
+                    android:padding="10dp"
+                    android:id="@+id/passtext"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <CheckBox
+                android:visibility="gone"
+                android:checked="true"
+                android:buttonTint="@color/black"
+                android:id="@+id/rememberme"
+                android:text="Manter-me conectado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                 android:textColor="@color/white"
+                android:id="@+id/login"
+                android:foreground="@drawable/ripple"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="@color/blue_500"
+                android:text="Acessar"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
