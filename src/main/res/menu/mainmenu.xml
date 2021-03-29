@@ -6,31 +6,13 @@
     <group
 
         android:checkableBehavior="single">
-        <item
-            android:id="@+id/art"
-            android:title="ART" />
-
-        <item
-            android:id="@+id/artexecução"
-            android:title="ART(execução)" />
-
-        <item android:id="@+id/contrato"
-            android:title="Contrato"
-            />
-        <item
-            android:id="@+id/cronogram"
-            android:title="Cronograma" />
-        <item
-            android:id="@+id/serviceoder"
-            android:title="Ordem de serviço" />
-
 
 
     </group>
-    <item android:id="@+id/progress"
+    <item
+        android:id="@+id/contact"
         android:icon="@drawable/ic_communication_4"
-        android:title="Contato"
-        />
+        android:title="Contato" />
     <item
         android:icon="@drawable/ic_logout"
         android:title="Sair" />

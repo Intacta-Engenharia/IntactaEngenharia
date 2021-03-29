@@ -3,5 +3,6 @@
     <string name="title_activity_main_activityv2">...</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="error_login_default_error">Desculpe, houve um erro inesperado na autenticação.</string>
 
 </resources>
