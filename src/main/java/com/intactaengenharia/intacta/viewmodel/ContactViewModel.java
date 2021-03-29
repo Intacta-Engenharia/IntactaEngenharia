@@ -12,10 +12,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.intactaengenharia.intacta.service.listeners.OnCompleteListener;
 import com.intactaengenharia.intacta.service.model.Contact;
-import com.intactaengenharia.intacta.service.model.Document;
 import com.intactaengenharia.intacta.service.repository.DefaultRepository;
-import com.intactaengenharia.intacta.service.repository.DocumentRepository;
-import com.intactaengenharia.intacta.service.utils.Alerts;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,6 @@
 package com.intactaengenharia.intacta.viewmodel;
 
 import android.app.Application;
-import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
@@ -16,7 +15,6 @@ import com.intactaengenharia.intacta.service.listeners.OnCompleteListener;
 import com.intactaengenharia.intacta.service.listeners.ValidationListener;
 import com.intactaengenharia.intacta.service.model.Obra;
 import com.intactaengenharia.intacta.service.repository.DefaultRepository;
-import com.intactaengenharia.intacta.service.repository.ObraRepository;
 import com.intactaengenharia.intacta.service.utils.Preferences;
 
 import java.util.ArrayList;

@@ -15,7 +15,6 @@ import com.intactaengenharia.intacta.service.listeners.OnCompleteListener;
 import com.intactaengenharia.intacta.service.listeners.ValidationListener;
 import com.intactaengenharia.intacta.service.model.User;
 import com.intactaengenharia.intacta.service.repository.DefaultRepository;
-import com.intactaengenharia.intacta.service.repository.UserRepository;
 import com.intactaengenharia.intacta.service.utils.Preferences;
 
 public class UserViewModel extends AndroidViewModel {
