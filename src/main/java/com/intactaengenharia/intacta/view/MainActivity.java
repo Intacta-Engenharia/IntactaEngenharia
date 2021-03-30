@@ -39,6 +39,7 @@ import com.ramijemli.percentagechartview.PercentageChartView;
 
 import java.text.NumberFormat;
 import java.util.List;
+import java.util.Locale;
 
 import de.mateware.snacky.Snacky;
 
@@ -107,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements
                     percentageChartView.setProgress(Float.parseFloat(String.valueOf(obra.getProgress())), true);
                 }
                 toolbar.setTitle(obra.getObra());
-                NumberFormat formatter = NumberFormat.getCurrencyInstance();
+                NumberFormat formatter = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
                 double entry = (double) Math.round(obra.getEntry()) / 100;
                 Double pay = Math.round(obra.getValor()) * entry / 100;
                 toolbar.setSubtitle("Pago " + obra.getEntry() + "% " + formatter.format(pay));

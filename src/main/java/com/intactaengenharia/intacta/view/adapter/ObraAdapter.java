@@ -78,7 +78,7 @@ public class ObraAdapter extends RecyclerView.Adapter<ObraAdapter.MyViewHolder> 
 
         public void bind(Obra obra) {
             SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy", new Locale("pt", "BR"));
-            NumberFormat formatter = NumberFormat.getCurrencyInstance();
+            NumberFormat formatter = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
 
             double entry = (double) Math.round(obra.getEntry()) / 100;
             Double pay = Math.round(obra.getValor()) * entry / 100;
