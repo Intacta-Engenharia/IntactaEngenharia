@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activity);
+        setContentView(R.layout.activity_main);
         initView();
 
         Intent intent = getIntent();
@@ -85,13 +85,13 @@ public class MainActivity extends AppCompatActivity implements
 
         observer();
 
-        load(true);
+        isLoad(true);
         mObraViewModel.get(mKeyObra);
         mDiaryViewModel.onLoad();
     }
 
     //Carregar a lista com todos
-    private void load(Boolean isLoading) {
+    private void isLoad(Boolean isLoading) {
         if (isLoading) pgMain.setVisibility(View.VISIBLE);
         else pgMain.setVisibility(View.GONE);
     }
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements
         mDiaryViewModel.getDiaries().observe(this, new Observer<List<Diary>>() {
             @Override
             public void onChanged(List<Diary> diaries) {
-                load(false);
+                isLoad(false);
                 //diarylist = diaries;
                 if (diaries == null || diaries.isEmpty()) {
                     recycler.setVisibility(View.GONE);
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements
         mDocumentViewModel.getDcouments().observe(this, new Observer<List<Document>>() {
             @Override
             public void onChanged(List<Document> documents) {
-                load(false);
+                isLoad(false);
                 //documentlist = documents;
                 if (documents == null || documents.isEmpty()) {
                     recycler.setVisibility(View.GONE);
@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     private void retrieveEndService() {
-        load(false);
+        isLoad(false);
         if (mObra.getEndservices() == null || mObra.getEndservices().isEmpty()) {
             recycler.setVisibility(View.GONE);
             empty.setText("Nenhum serviço finalizado encontrado.");
@@ -204,7 +204,7 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     protected void onResume() {
         //GetObra();
-        load(true);
+        isLoad(false);
         mObraViewModel.get(mKeyObra);
         tabs.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -213,17 +213,17 @@ public class MainActivity extends AppCompatActivity implements
                 empty.setVisibility(View.GONE);
 
                 if (tab.getPosition() == 0) {
-                    load(true);
+                    isLoad(true);
                     mDiaryViewModel.onLoad();
                     //setupRvDiaries(diarylist);
                 }
                 if (tab.getPosition() == 1) {
-                    load(true);
+                    isLoad(true);
                     retrieveEndService();
                     //LoadEndservices();
                 }
                 if (tab.getPosition() == 2) {
-                    load(true);
+                    isLoad(true);
                     mDocumentViewModel.onLoad();
                     //setupRvDocuments(documentlist);
                 }

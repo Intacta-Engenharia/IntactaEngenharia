@@ -233,7 +233,7 @@ public class DiaryAdapter extends RecyclerView.Adapter<DiaryAdapter.MyViewHolder
         private void setPhotoAdapter(MyViewHolder holder, ArrayList<String> photos) {
             if (photos != null) {
                 if (!photos.isEmpty()) {
-                    ImageAdapter adapter = new ImageAdapter(photos);
+                    PhotoAdapter adapter = new PhotoAdapter(photos);
                     holder.rvPhotos.setAdapter(adapter);
                     GridLayoutManager llm = null;
                     if (photos.size() > 2) {

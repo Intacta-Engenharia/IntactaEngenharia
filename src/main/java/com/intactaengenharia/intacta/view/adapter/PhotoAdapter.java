@@ -27,22 +27,22 @@ import com.intactaengenharia.intacta.service.utils.Alerts;
 
 import java.util.List;
 
-public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.MyViewHolder> {
+public class PhotoAdapter extends RecyclerView.Adapter<PhotoAdapter.MyViewHolder> {
 
     private final List<String> imgs;
-    ImageAdapter(List<String> imgs) {
+    PhotoAdapter(List<String> imgs) {
         this.imgs = imgs;
     }
 
     @NonNull
     @Override
-    public ImageAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public PhotoAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_photos, parent, false);
-        return new ImageAdapter.MyViewHolder(view);
+        return new PhotoAdapter.MyViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ImageAdapter.MyViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull PhotoAdapter.MyViewHolder holder, int position) {
         Context context = holder.itemView.getContext();
         Glide.with(context).load(imgs.get(position))
                 .listener(new RequestListener<Drawable>() {

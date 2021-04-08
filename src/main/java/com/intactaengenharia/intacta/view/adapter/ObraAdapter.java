@@ -82,7 +82,7 @@ public class ObraAdapter extends RecyclerView.Adapter<ObraAdapter.MyViewHolder> 
 
             double entry = (double) Math.round(obra.getEntry()) / 100;
             Double pay = Math.round(obra.getValor()) * entry / 100;
-            mEntry.setText(new StringBuilder().append(obra.getEntry()).append("% pago: ").append(formatter.format(pay)).toString());
+            mEntry.setText(obra.getEntry() + "% pago: " + formatter.format(pay));
             mTitle.setText(obra.getObra());
             mLocal.setText(obra.getLocal());
             mProgress.setProgress(obra.getProgress().intValue());
