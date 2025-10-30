@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_card_obra.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/card_obra.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_app_bar_main_activity.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/app_bar_main_activity.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable-xhdpi_ic_stat_ic_notification.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable-xhdpi/ic_stat_ic_notification.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_contact_dialog.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/contact_dialog.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable-xxhdpi_ic_stat_ic_notification.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable-xxhdpi/ic_stat_ic_notification.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_card_photos.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/card_photos.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/menu_mainmenu.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/menu/mainmenu.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable-hdpi_ic_stat_ic_notification.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable-hdpi/ic_stat_ic_notification.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_expand.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/expand.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/anim_fade_in.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ic_notifications_none_black_24dp.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ic_notifications_none_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable-mdpi_ic_stat_ic_notification.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable-mdpi/ic_stat_ic_notification.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_activity_splash.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ic_arrow_drop_down_black_24dp.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ic_arrow_drop_down_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ic_sort_black_24dp.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ic_sort_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_top_round.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/top_round.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ic_check_circle_black_24dp.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ic_check_circle_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_field.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/field.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_side_nav_bar.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_roundbutton.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/roundbutton.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.intactaengenharia.intacta.app-debug-59:/layout_app_bar_main_activity.xml.flat",
+        "source": "com.intactaengenharia.intacta.app-main-61:/layout/app_bar_main_activity.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_activity_main.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/font_quicksand.ttf.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/font/quicksand.ttf"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_nav_header_main_activity.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/nav_header_main_activity.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ic_arrow_drop_up_black_24dp.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ic_arrow_drop_up_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/font_quicksandmedium.ttf.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/font/quicksandmedium.ttf"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable-xxxhdpi_ic_stat_ic_notification.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable-xxxhdpi/ic_stat_ic_notification.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_card_diary.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/card_diary.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_card_document.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/card_document.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ripple.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ripple.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_round.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/round.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/font_merriweather.ttf.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/font/merriweather.ttf"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable-hdpi_side_nav_bar.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable-hdpi/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_pagerphotos_card.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/pagerphotos_card.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/anim_pop_in.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/anim/pop_in.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/font_cinzel.ttf.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/font/cinzel.ttf"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ic_menu_black_24dp.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ic_menu_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_card_list.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/card_list.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ic_pdf_file.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ic_pdf_file.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_card_endservice.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/card_endservice.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ic_logout.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_fullscreen_dialog.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/fullscreen_dialog.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ic_communication_4.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ic_communication_4.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/layout_activity_obra.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/layout/activity_obra.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_mainexpand.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/mainexpand.xml"
+    },
+    {
+        "merged": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-debug-59:/drawable_ic_close_black_24dp.xml.flat",
+        "source": "/Users/emersontorres/.gradle/daemon/8.11.1/com.intactaengenharia.intacta.app-main-61:/drawable/ic_close_black_24dp.xml"
+    }
+]

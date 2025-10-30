@@ -1,67 +1,33 @@
-apply plugin: 'com.android.application'
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
 
-android {
-    compileSdkVersion 29
-    defaultConfig {
-        applicationId "com.intactaengenharia.intacta"
-        minSdkVersion 21
-        targetSdkVersion 29
-        versionCode 13
-        versionName "3.1"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+buildscript {
+    ext.kotlin_version = '2.1.20'
+    repositories {
+        google()
+        jcenter()
+        
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    dataBinding {
-        enabled = true
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.9.2'
+        classpath 'com.google.gms:google-services:4.4.4'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
     }
 }
 
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-
-    implementation 'com.ramijemli.percentagechartview:percentagechartview:0.3.1'
-    implementation 'com.github.santalu:mask-edittext:1.1.1'
-
-    //MVVM
-    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
-
-    implementation 'com.google.firebase:firebase-database:18.0.1'
-    implementation 'com.firebaseui:firebase-ui-database:1.0.1'
-    implementation 'com.google.firebase:firebase-storage:18.1.1'
-    implementation 'com.google.firebase:firebase-core:17.0.1'
-    implementation 'com.google.firebase:firebase-messaging:19.0.1'
-    implementation 'com.firebaseui:firebase-ui-auth:4.3.1'
-    implementation 'com.google.firebase:firebase-appindexing:19.0.0'
-    implementation 'com.google.firebase:firebase-auth:18.1.0'
-    implementation 'me.zhanghai.android.materialprogressbar:library:1.4.2'
-
-    implementation 'com.github.matecode:Snacky:1.1.4'
-    //Lib to sliping in diaries
-    implementation 'com.sothree.slidinguppanel:library:3.4.0'
-    implementation 'org.jetbrains:annotations:15.0'
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url  "https://androidisland.bintray.com/EzPermission" }
 
 
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation 'com.google.android.material:material:1.0.0'
-    implementation 'com.github.bumptech.glide:glide:4.9.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
-
-
+    }
 }
-apply plugin: 'com.google.gms.google-services'
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
